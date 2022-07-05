@@ -1,0 +1,5 @@
+.message {
+    display: grid;
+    margin-top: 1rem;
+    color: white;
+}

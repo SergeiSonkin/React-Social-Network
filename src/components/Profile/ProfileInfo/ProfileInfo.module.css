@@ -1,0 +1,27 @@
+.descriptionBlock {
+    color: var(--color-white);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid var(--color-primary-variant);
+
+}
+
+.descriptionBlock__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.descriptionBlock__image {
+    margin-right: 5px;
+}
+
+.descriptionBlock img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}

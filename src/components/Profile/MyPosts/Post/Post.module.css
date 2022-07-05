@@ -1,0 +1,48 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.item {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.item__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.like__container {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  margin-top: 0.3rem
+}
+
+.like__container button {
+  width: 50px;
+  background-color: var(--color-primary-variant);
+  color: var(--color-white);
+}
+
+.like__container button:hover {
+  background-color: var(--bs-table-active-color)
+}
+.item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.like {
+  color: var(--color-white);
+  background-color: transparent;
+}
+

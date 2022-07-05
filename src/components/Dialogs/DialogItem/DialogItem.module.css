@@ -1,0 +1,18 @@
+.dialogItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+
+.dialogItem img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.names {
+    line-height: 75px;
+    vertical-align: middle;
+}

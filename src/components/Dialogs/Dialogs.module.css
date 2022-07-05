@@ -1,0 +1,46 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+    color: black;
+}
+
+.dialogsItems a {
+    color: white;
+    padding-left: 5px;
+}
+
+.dialogsItems a:active {
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.sendMessage {
+    display: grid;
+    width: 200px;
+    margin-top: 1.2rem;
+}
+
+.sendMessage textarea {
+    height: 4em;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    padding: 5px 0 0 5px;
+    resize: none;
+    background-color: transparent;
+}
+
+.sendMessage button {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sendMessage button:hover {
+    background-color: var(--color-light)
+}

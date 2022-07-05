@@ -1,0 +1,44 @@
+.postsBlock {
+    padding: 10px;
+    color: var(--color-white);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h4 {
+    margin-bottom: 1rem
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+.addPost {
+    display: grid;
+    text-align: center;
+    width: 150px;
+    gap: 1px;
+}
+
+.addPost textarea {
+    padding: 3px 0 0 5px;
+    background: transparent;
+    color: white;
+    resize: none;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.addPost button {
+    width: 50%;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    height: 25px;
+}
+
+.addPost button:hover {
+    background-color: var(--color-light);
+}

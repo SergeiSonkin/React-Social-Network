@@ -1,0 +1,60 @@
+.userPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+* {
+    color: white;
+
+}
+
+.container {
+    padding-left: 10px;
+}
+
+.currentPage {
+    width: 275px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 5px;
+    cursor: pointer;
+    overflow-x: auto;
+}
+
+button {
+    color: black;
+}
+
+.user {
+    display: grid;
+    width: 275px;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "image name button";
+    gap: 10px;
+    margin-top: 1rem;
+    padding: 10px 10px;
+}
+
+.user:hover {
+    background-color: black;
+}
+
+.user__image {
+    grid-area: image;
+}
+.user__nameAndStatus {
+    grid-area: name;
+}
+
+.user__subscribeButton {
+    grid-area: button;
+}
+
+.selectedPage {
+    font-weight: bold;
+    background: black;
+    border-radius: 5px;
+}
